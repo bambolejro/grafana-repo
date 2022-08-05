@@ -330,7 +330,7 @@ alerting_groups: []
 #    rules:
 #    - alert: HighThroughputLogStreams
 #      expr: sum by(container) (rate({job=~"loki-dev/.*"}[1m])) > 1000
-#      for: 2m
+#      for: 2m ttttttttttttEEEEEEEEEEEEEEEESSSSSSSSSSSSSSSSSSSSSTTTTTTTTTTTTTTT
 
 useExistingAlertingGroup:
   enabled: false
